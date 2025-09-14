@@ -1,0 +1,6 @@
+/* fix.css - Neutralisation du -ms-high-contrast obsolète */
+@media (-ms-high-contrast: active) {
+  *, *::before, *::after {
+    forced-color-adjust: auto !important;
+  }
+}
